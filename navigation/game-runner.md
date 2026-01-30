@@ -10,7 +10,11 @@ permalink: /rpg/game
 ## Basic Game: Desert Adventure
 
 {% capture challenge1 %}
-import GameControl from '/assets/js/adventureGame/GameEngine/GameControl.js';
+Run the basic desert adventure game. Use WASD or arrow keys to move Chill Guy around the desert. Walk up to R2D2 to trigger a mini-game!
+{% endcapture %}
+
+{% capture code1 %}
+iimport GameControl from '/assets/js/adventureGame/GameEngine/GameControl.js';
 import GameEnvBackground from '/assets/js/adventureGame/GameEngine/GameEnvBackground.js';
 import Player from '/assets/js/adventureGame/GameEngine/Player.js';
 import Npc from '/assets/js/adventureGame/GameEngine/Npc.js';
@@ -72,3 +76,11 @@ class CustomLevel {
 
 export { GameControl };
 export const gameLevelClasses = [CustomLevel];
+{% endcapture %}
+
+{% include game-runner.html
+   runner_id="game1"
+   challenge=challenge1
+   code=code1
+   height="150px"
+%}
