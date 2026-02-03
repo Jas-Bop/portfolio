@@ -14,7 +14,7 @@ Run the basic desert adventure game. Use WASD or arrow keys to move Chill Guy ar
 {% endcapture %}
 
 {% capture code1 %}
-iimport GameControl from '/assets/js/adventureGame/GameEngine/GameControl.js';
+import GameControl from '/assets/js/adventureGame/GameEngine/GameControl.js';
 import GameEnvBackground from '/assets/js/adventureGame/GameEngine/GameEnvBackground.js';
 import Player from '/assets/js/adventureGame/GameEngine/Player.js';
 import Npc from '/assets/js/adventureGame/GameEngine/Npc.js';
