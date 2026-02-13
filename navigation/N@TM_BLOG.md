@@ -5,6 +5,11 @@ permalink: /n@tmblog/
 comments: true
 ---
 
+.image-gallery img {
+        max-height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
 
 
 
