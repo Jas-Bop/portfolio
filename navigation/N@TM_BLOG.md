@@ -5,3 +5,20 @@ permalink: /n@tmblog/
 comments: true
 ---
 
+
+
+
+
+
+### Images from Night at The Museum
+
+<div class="image-gallery">
+    <img src="{{site.baseurl}}/images/natm1.jpg" alt="p1">
+    <img src="{{site.baseurl}}/images/natm2.jpg" alt="p2">
+    <img src="{{site.baseurl}}/images/natm3.jpg" alt="p3">
+    <img src="{{site.baseurl}}/images/natm4.jpg" alt="p4">
+    <img src="{{site.baseurl}}/images/natm5.jpg" alt="p5">
+    <img src="{{site.baseurl}}/images/natm6.jpg" alt="p6">
+    <img src="{{site.baseurl}}/images/natm7.jpg" alt="p7">
+
+</div>
