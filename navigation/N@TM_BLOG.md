@@ -13,8 +13,8 @@ comments: true
     }
 </style>
 
-
-
+### Blog
+During N@TM there were many projects to experiment with. There was a survery where the results were uploaded to a cloud and projected on a page. There was also a gamebuilder project. There were many projects that students worked hard on to create and show.
 
 ### Images from Night at The Museum
 
