@@ -5,7 +5,7 @@ permalink: /allhw/
 comments: true
 ---
 
-Iterations homework: [https://jas-bop.github.io/portfolio/2026/01/12/iteration-homework_IPYNB_2_.html](https://jas-bop.github.io/portfolio/2026/01/12/iteration-homework_IPYNB_2_.html)
+Iterations homework: [https://jas-bop.github.io/portfolio/iterationhw/](https://jas-bop.github.io/portfolio/iterationhw/)
 
 Strings homework: [https://jas-bop.github.io/portfolio/2026/01/27/Strings-homework_IPYNB_2_.html](https://jas-bop.github.io/portfolio/2026/01/27/Strings-homework_IPYNB_2_.html)
 
