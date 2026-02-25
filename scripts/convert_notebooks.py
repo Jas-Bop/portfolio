@@ -1,4 +1,3 @@
-
 import glob
 from nbconvert import MarkdownExporter
 from nbconvert.utils.exceptions import ConversionException
