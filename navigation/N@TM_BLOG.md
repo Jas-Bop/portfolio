@@ -14,7 +14,11 @@ comments: true
 </style>
 
 ### Blog
-During N@TM there were many projects to experiment with. There was a survery where the results were uploaded to a cloud and projected on a page. There was also a gamebuilder project. There were many projects that students worked hard on to create and show.
+What I noticed:
+During N@TM there were many projects to experiment with. There was a survery where the results were uploaded to a cloud and projected on a page. There was also a gamebuilder project. There were many projects that students worked hard on to create and show. Each project was carefully designed to work with the utmost efficiency. I saw how proud the students looked to show off their projects and hard work.
+
+What I presented:
+I presented our project and showed families what to expect to make if their kids were going to take it next year. I explained to them how we started out from scratch simply downloading vscode, to making an entire class game, even if it was not the best.
 
 ### Images from Night at The Museum
 
