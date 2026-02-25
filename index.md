@@ -43,6 +43,16 @@ Hi! My name is Jasan Boparai
             Turtle
         </div>
     </a>
+    <a href="{{site.baseurl}}/allhw" style="text-decoration: none;">
+        <div style="background-color: #5a0be1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Lesson homeworks
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/n@tmblog" style="text-decoration: none;">
+        <div style="background-color: #5a0be1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            N@TM blog
+        </div>
+    </a>
 </div>
 
 <br>
