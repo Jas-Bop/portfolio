@@ -7,7 +7,7 @@ comments: true
 
 Iterations homework: [https://jas-bop.github.io/portfolio/iterationhw/](https://jas-bop.github.io/portfolio/iterationhw/)
 
-Strings homework: [https://jas-bop.github.io/portfolio/2026/01/27/Strings-homework_IPYNB_2_.html](https://jas-bop.github.io/portfolio/2026/01/27/Strings-homework_IPYNB_2_.html)
+Strings homework: [https://jas-bop.github.io/portfolio/js/strings](https://jas-bop.github.io/portfolio/js/strings)
 
 Nested Conditionals homework: [https://jas-bop.github.io/portfolio/js/nested-conditionals](https://jas-bop.github.io/portfolio/js/nested-conditionals)
 
