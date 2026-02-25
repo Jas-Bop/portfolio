@@ -20,3 +20,5 @@ Mathematical Experssions homework: [https://jas-bop.github.io/portfolio/js/math]
 JSON homework: [https://jas-bop.github.io/portfolio/js/json](https://jas-bop.github.io/portfolio/js/json)
 
 Data Abstraction homework: I was teaching
+
+Classes and Methods: [https://jas-bop.github.io/portfolio/js/classes](https://jas-bop.github.io/portfolio/js/classes)
