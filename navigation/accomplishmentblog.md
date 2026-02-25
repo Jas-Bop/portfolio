@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All Homeworks
+title: Accomplishment blog
 permalink: /accompblog/
 comments: true
 ---
