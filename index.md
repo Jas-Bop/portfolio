@@ -24,6 +24,7 @@ Hi! My name is Jasan Boparai
     <a href="https://vscode.dev/">
         <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode">
     </a>
+    
 </div>
 
 <br>
@@ -49,8 +50,18 @@ Hi! My name is Jasan Boparai
         </div>
     </a>
     <a href="{{site.baseurl}}/n@tmblog" style="text-decoration: none;">
-        <div style="background-color: #5a0be1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #0db31a; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             N@TM blog
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/about" style="text-decoration: none;">
+        <div style="background-color: #e10bcc; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            About me
+        </div>
+    </a>
+     <a href="{{site.baseurl}}/accompblog" style="text-decoration: none;">
+        <div style="background-color: #e10bcc; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Accomplishment blog
         </div>
     </a>
 </div>
