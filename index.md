@@ -59,6 +59,21 @@ Hi! My name is [Your Full Name]
            Networking
         </div>
     </a>
+    <a href="{{site.baseurl}}/gravity_blog" style="text-decoration: none;">
+        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           Lesson Doc
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/astro-platgame-lesson/" style="text-decoration: none;">
+        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+            Platformer lesson
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/astro-platgame/" style="text-decoration: none;">
+        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+            Platformer/gravity game
+        </div>
+    </a>
 </div>
 
 <br>
