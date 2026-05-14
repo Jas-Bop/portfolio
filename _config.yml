@@ -19,7 +19,7 @@ description: "Class of 2029"
 owner_name: Jasan Boparai
 github_username: Jas-Bop 
 github_repo: "portfolio" 
-baseurl: "/portfolio" 
+baseurl: "" 
 future: true
 
 # Build settings
