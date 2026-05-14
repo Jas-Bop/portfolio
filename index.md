@@ -60,18 +60,23 @@ Hi! My name is [Your Full Name]
         </div>
     </a>
     <a href="gravity_blog" style="text-decoration: none;">
-        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+        <div style="background-color: var(--teal); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
            Lesson Doc
         </div>
     </a>
     <a href="astro-platgame-lesson/" style="text-decoration: none;">
-        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+        <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
             Platformer lesson
         </div>
     </a>
     <a href="astro-platgame/" style="text-decoration: none;">
-        <div style="background-color: var(--orange); color: green; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+        <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
             Platformer/gravity game
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/table4final" style="text-decoration: none;">
+        <div style="background-color: var(--warn); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+            Table
         </div>
     </a>
 </div>
