@@ -78,7 +78,7 @@ export { GameControl };
 export const gameLevelClasses = [CustomLevel];
 {% endcapture %}
 
-{% include game-runner.html
+{% include runners/game.html
    runner_id="game1"
    challenge=challenge1
    code=code1
