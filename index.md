@@ -33,9 +33,9 @@ Hi! My name is [Your Full Name]
 
 <br>
 
-### Computer Science Projects
+### My Lessons
 
-> Explore my projects for College Ready.
+> Foundations in Tech are essential, click to see some of my lesson creations.
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -59,6 +59,15 @@ Hi! My name is [Your Full Name]
            Networking
         </div>
     </a>
+</div>
+
+<br>
+
+### College Ready Blog
+
+> Explore my projects for College Ready.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="gravity_blog" style="text-decoration: none;">
         <div style="background-color: var(--teal); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
            Lesson Doc
@@ -67,11 +76,6 @@ Hi! My name is [Your Full Name]
     <a href="astro-platgame-lesson/" style="text-decoration: none;">
         <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
             Platformer lesson
-        </div>
-    </a>
-    <a href="astro-platgame/" style="text-decoration: none;">
-        <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-            Platformer/gravity game
         </div>
     </a>
     <a href="{{site.baseurl}}/table4final" style="text-decoration: none;">
@@ -88,6 +92,11 @@ Hi! My name is [Your Full Name]
 > Here is my game progress through coding, click to see these in the browser
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="astro-platgame/" style="text-decoration: none;">
+        <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+            Platformer/gravity game
+        </div>
+    </a>
     <a href="{{site.baseurl}}/snake" class="btn">
         Snake
     </a>
