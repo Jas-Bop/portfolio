@@ -41,7 +41,7 @@ Hi! My name is [Your Full Name]
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/code/javascript" style="text-decoration: none;">
         <div style="background-color: var(--green); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
-           JS Basics
+           My Lessons
         </div>
     </a>
     <a href="{{site.baseurl}}/game/essentials/variables" style="text-decoration: none;">
