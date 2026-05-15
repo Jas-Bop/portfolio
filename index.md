@@ -33,9 +33,9 @@ Hi! My name is [Your Full Name]
 
 <br>
 
-### My Lessons
+### Computer Science Projects
 
-> Foundations in Tech are essential, click to see some of my lesson creations.
+> Explore my projects for College Ready.
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
