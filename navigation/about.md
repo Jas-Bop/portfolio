@@ -9,7 +9,7 @@ comments: true
 
 I have visited many places during my lifetime.
 <comment>
-Flags are made using Wikipedia images
+Flags are made using Wikipedia images.
 </comment>
 
 <style>
