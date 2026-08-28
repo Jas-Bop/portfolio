@@ -135,6 +135,7 @@ My life so far:
 
 <div class="image-gallery">
     <img src="{{site.baseurl}}/images/about/IMG_2832.jpg" alt="Family photo">
+    <img src="{{site.baseurl}}/images/about/fampic.jpg" alt="Family photo at the Golden Gate Bridge">
 </div>
 
 ### Things I like:
@@ -159,6 +160,5 @@ My life so far:
         <p style="color:#000 !important; opacity:1 !important;">Burgers</p>
     </div>
 </div>
-
 
 
