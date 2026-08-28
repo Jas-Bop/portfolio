@@ -76,7 +76,8 @@ Flags are made using Wikipedia images.
     .likes-item p {
         margin-top: 6px;
         font-size: 0.9rem;
-        color: #000;
+        color: #000 !important;
+        opacity: 1 !important;
     }
 </style>
 
@@ -114,11 +115,6 @@ Flags are made using Wikipedia images.
         container.appendChild(gridItem);
     }
 </script>
-
-.likes-grid .likes-item p {
-    color: #000 !important;
-    opacity: 1 !important;
-}
 
 ### Journey through Life
 
@@ -160,5 +156,4 @@ My life so far:
         <p style="color:#000 !important; opacity:1 !important;">Burgers</p>
     </div>
 </div>
-
 
