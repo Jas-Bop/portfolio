@@ -7,7 +7,7 @@ comments: true
 
 ## As a conversation Starter
 
-I have visited many places during my lifetime.
+I have visited many places during my lifetime. 
 <comment>
 Flags are made using Wikipedia images.
 </comment>
