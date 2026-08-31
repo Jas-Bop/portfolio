@@ -127,11 +127,15 @@ My life so far:
 - 🎓 Graduated from Oak Valley middle school and went to Del Norte High School  
 
 ### Culture, Family, and Fun
-- There are 4 people in my family. We are all from India, but my brother and I were born here.
+- There are 4 people in my family. We are all from India, but my brother and I were born here. And Krish is my friend.
 
 <div class="image-gallery">
     <img src="{{site.baseurl}}/images/about/IMG_2832.jpg" alt="Family photo">
     <img src="{{site.baseurl}}/images/about/fampic.jpg" alt="Family photo at the Golden Gate Bridge">
+    <img src="{{site.baseurl}}/images/about/IMG_1157.jpg" alt="About me gallery photo">
+    <img src="{{site.baseurl}}/images/about/IMG_0953.jpg" alt="About me gallery photo">
+    <img src="{{site.baseurl}}/images/about/IMG_1565.jpg" alt="About me gallery photo">
+    <img src="{{site.baseurl}}/images/about/IMG_3839.jpg" alt="Golden retriever puppy">
 </div>
 
 ### Things I like:
@@ -156,4 +160,3 @@ My life so far:
         <p style="color:#000 !important; opacity:1 !important;">Burgers</p>
     </div>
 </div>
-
