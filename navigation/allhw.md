@@ -31,4 +31,8 @@ Lists homework: [https://jas-bop.github.io/portfolio/csp/big-idea-3/lists/](http
 
 Algorithmic Efficiency homework: [https://jas-bop.github.io/portfolio/homework/3-17/](https://jas-bop.github.io/portfolio/homework/3-17/)
 
+Libraries homework: [https://jas-bop.github.io/portfolio/python/libraries-hw](https://jas-bop.github.io/portfolio/python/libraries-hw)
+
+Random Values homework: [https://jas-bop.github.io/portfolio/python/random-hw](https://jas-bop.github.io/portfolio/python/random-hw)
+
 Classes and Methods: [https://jas-bop.github.io/portfolio/js/classes](https://jas-bop.github.io/portfolio/js/classes)
