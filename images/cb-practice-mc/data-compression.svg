@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2132" height="94" viewBox="0 0 2132 94">
+  <rect width="2132" height="94" fill="#fff"/>
+  <rect x="0" y="0" width="2132" height="13" fill="#eef7fb"/>
+  <line x1="0" y1="13" x2="2132" y2="13" stroke="#d9d9d9" stroke-width="3"/>
+  <line x1="0" y1="91" x2="2132" y2="91" stroke="#e2e2e2" stroke-width="3"/>
+  <line x1="1520" y1="0" x2="1520" y2="94" stroke="#e2e2e2" stroke-width="3"/>
+  <line x1="1780" y1="0" x2="1780" y2="94" stroke="#e2e2e2" stroke-width="3"/>
+  <rect x="1784" y="0" width="348" height="7" fill="#6dc34a"/>
+  <rect x="1784" y="15" width="348" height="65" fill="#ffed9c"/>
+  <text x="36" y="61" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#222">2.2: Data Compression</text>
+  <text x="1712" y="61" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#222">3</text>
+  <text x="1810" y="61" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#222">33%</text>
+</svg>
