@@ -1,5 +1,6 @@
 ---
 layout: post
+codemirror: true
 title: UESL 3.2 Homework
 author: Jas-Bop
 permalink: /homework/3-2/
@@ -7,14 +8,25 @@ permalink: /homework/3-2/
 
 ## Popcorn
 
-```python
+{% capture challenge0 %}
+UESL 3.2 Popcorn - Extend the level sequence
+{% endcapture %}
+
+{% capture code0 %}
 # UESL 3.2 Popcorn - Extend the level sequence
 level_stars = [6, 9, 12]
 level_stars[1] = level_stars[1] + 3
 level_stars.append(5)
 print(level_stars)
 print(len(level_stars))
-```
+{% endcapture %}
+
+{% include runners/code.html
+   runner_id="homework-3-2-0"
+   language="python"
+   challenge=challenge0
+   code=code0
+%}
 
 Prediction: The second level starts at `9`, then increases by `3`, so it becomes `12`. Appending `5` adds a new fourth level. The list should print `[6, 12, 12, 5]`, and the length should print `4`.
 
@@ -40,7 +52,11 @@ MCQ 3.2: 4/4 | answers: B,A,C,B
 
 ## Homework
 
-```python
+{% capture challenge1 %}
+UESL 3.2 Homework - Grow your UESL game
+{% endcapture %}
+
+{% capture code1 %}
 # UESL 3.2 Homework - Grow your UESL game
 level_stars = [12, 18, 10]
 
@@ -55,7 +71,14 @@ for stars in level_stars:
 print(level_stars)
 print(len(level_stars))
 print(total_stars)
-```
+{% endcapture %}
+
+{% include runners/code.html
+   runner_id="homework-3-2-1"
+   language="python"
+   challenge=challenge1
+   code=code1
+%}
 
 Prediction: Level two changes from `18` to `23`, and the new level with `7` stars becomes the fourth element. The collection should be `[12, 23, 10, 7]`, the level count should be `4`, and the total should be `52`.
 
@@ -71,7 +94,11 @@ Actual output:
 
 Test 1 - main game with four levels.
 
-```python
+{% capture challenge2 %}
+Test 1 - Main game with four levels
+{% endcapture %}
+
+{% capture code2 %}
 level_stars = [12, 18, 10]
 
 level_stars[1] = level_stars[1] + 5
@@ -83,7 +110,14 @@ for stars in level_stars:
 
 print(len(level_stars))
 print(total_stars)
-```
+{% endcapture %}
+
+{% include runners/code.html
+   runner_id="homework-3-2-2"
+   language="python"
+   challenge=challenge2
+   code=code2
+%}
 
 Prediction: The level count should be `4`, and the total should be `52`.
 
@@ -98,7 +132,11 @@ Result: The traversal works after the list grows because the `for` loop visits e
 
 Test 2 - empty project.
 
-```python
+{% capture challenge3 %}
+Test 2 - Empty project
+{% endcapture %}
+
+{% capture code3 %}
 level_stars = []
 
 if len(level_stars) >= 2:
@@ -110,7 +148,14 @@ for stars in level_stars:
 
 print(len(level_stars))
 print(total_stars)
-```
+{% endcapture %}
+
+{% include runners/code.html
+   runner_id="homework-3-2-3"
+   language="python"
+   challenge=challenge3
+   code=code3
+%}
 
 Prediction: The empty list has no second element, so the update is skipped. The level count should be `0`, and the total should be `0`.
 
