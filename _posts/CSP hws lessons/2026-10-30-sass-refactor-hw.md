@@ -8,11 +8,11 @@ permalink: /homework/sass-refactor/
 
 ## Goal
 
-Convert an existing CSS file to SCSS, connect it to the site's shared stylesheet, and remove the old CSS file and its link. I chose the profile page's Save-button shake animation because it is a small component whose compiled behavior can be compared directly with the original.
+Show how to convert an existing CSS file to SCSS, register it in the shared stylesheet, and remove the old CSS reference. This is a homework example only; the site files remain unchanged. I chose the profile page's Save-button shake animation because it is a small component whose compiled behavior can be compared directly with the original.
 
 ## Original CSS
 
-The original file was `assets/css/Aesthetihawk/shake.css`. It defined five animation positions and a class that played the animation for `0.3s`:
+The existing file is `assets/css/Aesthetihawk/shake.css`. It defined five animation positions and a class that played the animation for `0.3s`:
 
 ```css
 @keyframes shake {
@@ -28,11 +28,11 @@ The original file was `assets/css/Aesthetihawk/shake.css`. It defined five anima
 }
 ```
 
-`_layouts/profile.html` loaded it with a separate stylesheet link. That link used lowercase `aesthetihawk`, while the source folder was named `Aesthetihawk`, which can prevent loading on a case-sensitive host.
+`_layouts/profile.html` loads it with a separate stylesheet link. That link used lowercase `aesthetihawk`, while the source folder was named `Aesthetihawk`, which can prevent loading on a case-sensitive host.
 
 ## Converted SCSS
 
-The new file is `_sass/open-coding/profile-shake.scss`:
+The proposed file would be `_sass/open-coding/profile-shake.scss`. Its complete SCSS is shown here without modifying the site:
 
 ```scss
 @import "materials/main.scss";
@@ -59,13 +59,13 @@ The materials import follows the lesson's shared-utilities convention. This anim
 
 ## Registration and cleanup
 
-I added this import at the end of the imports in `_sass/open-coding/_main.scss`:
+To register the proposed component, add this import at the end of the imports in `_sass/open-coding/_main.scss`:
 
 ```scss
 @import "profile-shake";
 ```
 
-The component now enters the shared import chain:
+The component would enter the shared import chain:
 
 ```text
 _sass/minima/custom-styles.scss
@@ -74,18 +74,18 @@ _sass/minima/custom-styles.scss
       → materials/_main.scss
 ```
 
-I removed the original `assets/css/Aesthetihawk/shake.css` file and its stylesheet link from `_layouts/profile.html`. The parent `aesthetihawk` layout already links the shared `/assets/css/style.css` stylesheet.
+The final cleanup step would be to remove `assets/css/Aesthetihawk/shake.css` and its stylesheet link from `_layouts/profile.html` after verifying the shared stylesheet. Those files are left unchanged for this homework-only submission. The parent `aesthetihawk` layout already links the shared `/assets/css/style.css` stylesheet.
 
 ## Validation
 
-I compiled the component with the locally installed Sass compiler:
+The proposed SCSS was compiled with the locally installed Sass compiler during preparation. To repeat the compilation after saving the proposed file:
 
 ```sh
 sass --scss --style expanded --load-path _sass \
   _sass/open-coding/profile-shake.scss /tmp/portfolio-profile-shake.css
 ```
 
-Compilation passed. Comparing the compiled animation rules with the original CSS, ignoring comments and whitespace, confirmed that the keyframe positions, animation name, duration, and easing stayed the same. I also checked that the new import exists and that the old CSS file and profile link are gone.
+Compilation passed. Comparing the compiled animation rules with the original CSS, ignoring comments and whitespace, confirmed that the keyframe positions, animation name, duration, and easing stayed the same. The proposed import and cleanup steps are documented above; they are not applied to the site.
 
 I attempted a full site build:
 
@@ -97,4 +97,4 @@ The build could not start because the local Ruby bundle is missing the `csv` gem
 
 ## Reflection
 
-SCSS keeps this animation's settings in one place while compiling to the same CSS rules. Registering the component in the shared import hub removes the separate stylesheet request and its case-sensitive path issue. For larger components, I would also use shallow nesting for related selectors, shared palette variables for colors, and mixins for declarations reused across components.
+SCSS keeps this animation's settings in one place while compiling to the same CSS rules. Registering the component in the shared import hub would remove the separate stylesheet request and its case-sensitive path issue. For larger components, I would also use shallow nesting for related selectors, shared palette variables for colors, and mixins for declarations reused across components.
