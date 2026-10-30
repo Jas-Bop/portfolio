@@ -7,7 +7,7 @@ lesson_language: SASS
 lesson_topic: Buttons HW
 lesson_part: interactive
 lesson_type: lesson
-permalink: /sass/buttons-hw/
+permalink: /sass/buttons-hw/ 
 author: Jas-Bop
 ---
 
